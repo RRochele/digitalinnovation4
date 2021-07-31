@@ -10,6 +10,6 @@ fun main() {
 
     val banco2 = digiOneBank.copy(nome = "Banco2")
 
-    println(banco2.info())
+    println(banco2)
 
 }
