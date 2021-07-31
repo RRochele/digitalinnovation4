@@ -5,5 +5,10 @@ class Analista(
     cpf: String,
     salario: Double
 ) : Funcionario(nome, cpf, salario) {
+    override fun calculoauxilio(): abstract  {
+        TODO("Not yet implemented")
+    }
+
     override fun calculoAuxilio() = salario * 0.1
 }
+
