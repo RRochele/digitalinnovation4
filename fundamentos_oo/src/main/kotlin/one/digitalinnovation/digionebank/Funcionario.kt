@@ -7,5 +7,5 @@ import java.math.BigDecimal
      cpf: String,
     val salario: BigDecimal
 ) :Pessoa(nome, cpf) {
-    abstract fun calculoAuxilio():
+    protected abstract fun calculoAuxilio()
 }
