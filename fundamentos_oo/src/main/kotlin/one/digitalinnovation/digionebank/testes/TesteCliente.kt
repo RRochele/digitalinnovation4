@@ -2,13 +2,12 @@ package one.digitalinnovation.digionebank.testes
 
 import one.digitalinnovation.digionebank.Cliente
 import one.digitalinnovation.digionebank.ClienteTipo
-
 fun main() {
     val jose = Cliente(
-        nome = "Jose da Silva",
-        cpf = "123.123.456-77",
-        clienteTipo = ClienteTipo.PF,
-        senha = "123456"
+        nome= "José da silva",
+        "123.12.123-46",
+        ClienteTipo.PF,
+        "123455"
     )
 
     println(jose)
